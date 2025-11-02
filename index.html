@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="ar">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>لعبة الكلمات | Words Game</title>
+    <link rel="stylesheet" href="main.css" />
+  </head>
+  <body>
+    <div class="game-container">
+      <h1 class="welcome">هنا من استاد القاهرة نرحب بكم ⚽🎉</h1>
+      <div class="lang">
+        <div class="box">
+          <h2>طريقة اللعب وشرح الألوان</h2>
+          <div class="text">
+            لو لون الحرف <span class="g">أخضر</span> يعني الحرف صح وفي المكان
+            الصح
+          </div>
+          <div class="text">
+            لو لون الحرف <span class="o">برتقالي</span> يعني الحرف صح لكن في
+            المكان الخطأ
+          </div>
+          <div class="text">
+            لو لون الحرف <span class="r">أحمر</span> يعني الحرف غير موجود في
+            الكلمة أصلاً
+          </div>
+        </div>
+
+        <p>اختر لغة اللعبة</p>
+        <span>
+          ملحوظة سريعة: الكلمات بالعربي هي سور القرآن الكريم وبدون (ال)
+        </span>
+        <button class="ar">العربية</button>
+        <button class="en">English</button>
+      </div>
+
+      <div class="inputs"></div>
+
+      <div class="controls">
+        <button class="check">تحقق / Check</button>
+        <button class="hint">💡 مساعدة (<span></span>)</button>
+      </div>
+
+      <div class="masege"></div>
+      <a href="" class="agen hedin"></a>
+      <audio class="win" src="assest/secss.mp4"></audio>
+      <audio class="fil" src="assest/fil.mp4"></audio>
+    </div>
+
+    <script src="game.js"></script>
+  </body>
+</html>
